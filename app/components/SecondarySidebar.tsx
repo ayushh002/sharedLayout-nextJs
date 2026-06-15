@@ -13,7 +13,7 @@ export default function SecondarySidebar({
   subItems,
   currentSubItem,
 }: SecondarySidebarProps) {
-  const primary = title.toLowerCase(); // used to build href
+  const primary = title.toLowerCase();
 
   return (
     <aside className="w-72 bg-white border-r border-gray-200 flex flex-col shadow-sm animate-in slide-in-from-left duration-200">

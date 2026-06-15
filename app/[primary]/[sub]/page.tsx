@@ -28,8 +28,7 @@ export default async function SubPage({ params, searchParams }: SubPageProps) {
           </pre>
         )}
         <div id="read-here" className="mt-6 p-4 bg-orange-100 rounded-lg border border-orange-200">
-          📍 This is the <code>#read-here</code> target. If you visit <code>/{primary}/{sub}#read-here</code>,
-          the browser will scroll to this element automatically.
+          📍 Details section of the route <code>/{primary}/{sub}</code> will be displayed here.
         </div>
       </div>
     </div>

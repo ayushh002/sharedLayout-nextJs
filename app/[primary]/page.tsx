@@ -20,7 +20,7 @@ export default async function PrimaryPage({ params }: PrimaryPageProps) {
         </p>
         <p className="mt-4 text-gray-500">
           Click any item from the secondary sidebar to see detailed content and a
-          more specific URL (e.g., <code>/{primary}/inbox</code>).
+          more specific URL (e.g., <code>/{primary}/selectedSubItem</code>).
         </p>
       </div>
     </div>

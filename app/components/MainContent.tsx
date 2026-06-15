@@ -1,4 +1,3 @@
-// app/components/MainContent.tsx
 "use client";
 
 interface MainContentProps {
