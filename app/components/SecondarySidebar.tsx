@@ -44,7 +44,7 @@ export default function SecondarySidebar({
         </Link>
       </div>
       <nav className="flex-1 py-4">
-        <ul className="space-y-1 px-3">
+        <ul className="space-y-3 px-3">
           {subItems.map((subItem) => {
             // Convert "Analytics Hub" to slug "analytics-hub" for URL
             const subSlug = subItem.toLowerCase().replace(/\s+/g, "-");

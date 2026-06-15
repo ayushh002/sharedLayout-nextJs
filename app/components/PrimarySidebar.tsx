@@ -24,7 +24,7 @@ export default function PrimarySidebar({ items }: PrimarySidebarProps) {
         <p className="text-xs text-gray-500 mt-1">Enterprise Suite</p>
       </div>
       <nav className="flex-1 py-4">
-        <ul className="space-y-1 px-3">
+        <ul className="space-y-3 px-3">
           {items.map((item) => {
             const isActive = currentPrimary === item.id;
             return (
