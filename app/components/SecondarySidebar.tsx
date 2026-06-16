@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-
 interface SecondarySidebarProps {
   title: string;
   subItems: string[];

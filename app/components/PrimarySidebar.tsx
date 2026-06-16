@@ -19,10 +19,6 @@ export default function PrimarySidebar({ items }: PrimarySidebarProps) {
 
   return (
     <aside className="w-64 bg-white border-r border-gray-200 flex flex-col shadow-sm">
-      <div className="p-5 border-b border-gray-100">
-        <h1 className="text-xl font-bold text-orange-600">Platinum RX</h1>
-        <p className="text-xs text-gray-500 mt-1">Enterprise Suite</p>
-      </div>
       <nav className="flex-1 py-4">
         <ul className="space-y-3 px-3">
           {items.map((item) => {
