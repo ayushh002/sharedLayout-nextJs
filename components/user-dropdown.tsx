@@ -19,7 +19,7 @@ export function UserDropdown() {
     avatar: "/avatars/user.jpg",
   };
 
-  // Generate initials (e.g. "JD")
+  // Generating initials
   const initials = user.name
     .split(" ")
     .map((n) => n[0])
@@ -28,7 +28,6 @@ export function UserDropdown() {
 
   return (
     <DropdownMenu>
-      {/* No extra button! Styling directly on the trigger */}
       <DropdownMenuTrigger className="flex items-center gap-2 outline-none focus:ring-2 focus:ring-orange-500 rounded-full">
         <Avatar className="h-8 w-8">
           <AvatarImage src={user.avatar} alt={user.name} />
